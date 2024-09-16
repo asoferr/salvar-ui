@@ -1,0 +1,44 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dólar</title>
+    <link rel="stylesheet" href="dolar.css">
+</head>
+<body>
+    <center>
+    <fieldset>
+        <legend>Valor do Dólar</legend>
+        <br><br><br><br><br><br>
+        
+            <h1 class="valor">Valor atual</h1>
+            <div class="quadrado">
+                <p id="valorDolar"></p>
+            </div>
+            <br>
+            <h1 class="valor">Valor máximo do dia</h1>
+            <div class="quadrado">
+                <p id="dolarMax"></p>
+            </div>
+            <br>
+            <h1 class="valor">Valor mínimo do dia</h1>
+            <div class="quadrado">
+                <p id="dolarMin"></p>
+            </div>
+        </div>
+    </fieldset>
+    <script>
+        fetch('https://economia.awesomeapi.com.br/last/USD-BRL').then(resposta => {
+            return resposta.json();
+            }).then(economia => {
+            console.log(economia);
+            document.getElementById('valorDolar').innerHTML = economia.USDBRL.bid;
+            document.getElementById('dolarMax').innerHTML = economia.USDBRL.high;
+            document.getElementById('dolarMin').innerHTML = economia.USDBRL.low;
+            });
+            
+    </script>
+</body>
+</html>

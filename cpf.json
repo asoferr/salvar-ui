@@ -1,0 +1,20 @@
+[{
+    "id": 7,
+    "nome": "Sofia",
+    "sobrenome": "Alcântara",
+    "cpf": 1234567,
+    "cidade": "Mogi das Cruzes",
+    "pais": "Brasil",
+    "imagem": "<img src ='img/bruno.jpg' width='200px'>",
+    "link": "https://www.livenation.lat/pt/artist-bruno-mars-147754"
+}, 
+{
+    "id": 7,
+    "nome": "Sofia",
+    "sobrenome": "Alcântara",
+    "cpf": 1234567,
+    "cidade": "Mogi das Cruzes",
+    "pais": "Brasil",
+    "imagem": "<img src ='img/bruno.jpg' width='200px'>",
+    "link": "https://www.livenation.lat/pt/artist-bruno-mars-147754"
+} ]

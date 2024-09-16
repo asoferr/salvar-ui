@@ -1,0 +1,33 @@
+body{
+    background-color: rgb(49, 98, 121);
+}
+
+fieldset{
+    margin-top: 150px; 
+    margin-left: 500px;
+    margin-right: 500px;
+    border-color: rgb(255, 255, 255);
+    height: 650px;
+}
+
+legend{
+    margin-left: 280px;
+    color: rgb(255, 255, 255);
+    font-size: xx-large;
+    font-family: 'Copperplate', 'Copperplate Gothic Light', sans-serif;
+}
+
+
+.valor{
+    color: aliceblue;
+    font-size: x-large;
+}
+
+
+.Quadrado{
+    background-color: rgb(113, 139, 160); 
+    margin-right: 380px;
+    margin-left: 380px;
+    border-radius: 5px;
+    box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.5);
+}

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>clima</title>
+    <link rel="stylesheet" href="clima.css">
+</head>
+<body>
+        <div class="container">
+            <h1 onclick="location.href ='index.html'">Previsão do Tempo</h1>
+            <p>Digite o nome da Cidade</p>
+            <div class="input-group">
+                <input type="text" id="cidade" placeholder="Nome da cidade">
+                <button onclick="getWeather()">Pesquisar</button>
+            </div>
+            <div id="temperatura">Esperando...</div>
+        </div>
+    
+        <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script> <!-- Inclui o Axios -->
+        <script src="script2.js"></script>
+</body>
+</html>
